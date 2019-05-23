@@ -1,0 +1,24 @@
+{
+  "name": "simple-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d menu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassalazar/simple-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassalazar/simple-menu/issues"
+  },
+  "homepage": "https://lucassalazar.github.io/simple-menu"
+}
