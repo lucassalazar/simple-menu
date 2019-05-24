@@ -92,22 +92,35 @@
         .destaque {
             background: red;
             color: #fff;
+        }
+
+        @media(max-width: 464px) {
+            .cabecalho {
+                height: 121px;
+                text-align: center;
+            }
+            .menu-toggle {
+                float: left;
+                margin: 0;
+                width: 100vw;
+            }
+
         } 
 
-        @media(min-width: 679px) { /* A largura minima para que o toggle desapareça é de 679px */ 
+        @media(min-width: 752px) { /* A largura minima para que o toggle desapareça é de 679px */ 
             .menu-toggle {
                 display: none;
             }
         }
 
-        @media(max-width: 680px) { /* Até a largura maxima de 680px o menu fica invisivel */
+        @media(max-width: 753px) { /* Até a largura maxima de 680px o menu fica invisivel */
             .menu{
                 display: none;    
             }
             
         }
 
-        @media(max-width: 910px) { /* Se a largura maxima for de 910 ou menor a autenticação fica invisivel */
+        @media(max-width: 990px) { /* Se a largura maxima for de 910 ou menor a autenticação fica invisivel */
             .autenticacao {
                 display: none;
             }
